@@ -8,14 +8,15 @@ const { MONGODB } = require('./config.js');
 
 const server = new ApolloServer({
     typeDefs,
-    resolvers
+    resolvers, 
+    context: ({req}) => ({ req })
 })
 
 mongoose
     .connect(MONGODB, { useNewUrlParser: true})
     .then(()=>{
         console.log(`db connected`)
-        return server.listen({ port: 3500})
+        return server.listen({ port: 3700})
     })
     .then(res =>{
         console.log(`Server running at ${res.url}`);

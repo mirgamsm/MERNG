@@ -1,4 +1,4 @@
-module.exports.validateRergisterInput = (
+module.exports.validateRegisterInput = (
     username,
     email,
     password,
