@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@mui/material"
 import VideoCall from "./VideoCall";
 
-function Video() {
+function Vid() {
     const [inCall, setInCall] = useState(false);
     return (
         <div className="App" style={{ height: "100%" }}>
@@ -24,4 +24,4 @@ function Video() {
 
 
 
-export default Video
+export default Vid

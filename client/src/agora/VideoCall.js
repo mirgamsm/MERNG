@@ -5,7 +5,6 @@ import {
   useMicrophoneAndCameraTracks,
   channelName,
 } from "./settings.js";
-import { Grid } from "@mui/material";
 import VideoScreen from "./VideoScreen";
 import Controls from "./Controls";
 
