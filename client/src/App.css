@@ -41,6 +41,13 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.flexBox2{
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
 .flexItem{
   background-color: gray;
   width: 33%;

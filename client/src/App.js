@@ -12,6 +12,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Video from './agora/Video';
 import { Container } from '@mui/system';
 
 
@@ -29,6 +30,7 @@ export default function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/login' element={<Login/>}/>
             <Route path='/register' element={<Register/>}/>
+            <Route path='/video' element={<Video/>}/>
           </Routes>
         </Container>
       </BrowserRouter>
